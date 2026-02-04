@@ -1,0 +1,4 @@
+Options provided:
+ - json configuration file [/tmp/dvrk_config_wizard.EKbCrh]
+Using file: dVRK system JSON configuration file: /tmp/dvrk_config_wizard.EKbCrh
+[ros2run]: Process exited with failure 1

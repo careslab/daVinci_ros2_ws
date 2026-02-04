@@ -1,0 +1,30 @@
+---------------------------------------------------- 
+ Warning:                                            
+   It seems that "cisst" has not been compiled in  
+   Release mode.  Make sure your CMake configuration 
+   or catkin profile is configured to compile in     
+   Release mode for better performance and stability 
+---------------------------------------------------- 
+FirewirePort::Init: number of ports = 1
+  Port 0: /dev/fw10, 11 nodes
+FirewirePort::Init: successfully initialized port 0
+Using libraw1394 version 2.1.2
+FirewirePort::Init: successfully disabled cycle start packet
+FirewirePort::InitNodes: base node id = ffc0
+BasePort::ScanNodes: building node map for 10 nodes:
+  Node 0, BoardId = 4, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 1, BoardId = 5, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 2, BoardId = 6, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 3, BoardId = 7, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 4, BoardId = 8, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 5, BoardId = 9, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 6, BoardId = 2, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 7, BoardId = 3, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 8, BoardId = 0, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+  Node 9, BoardId = 1, FPGA_V1, Hardware = QLA1, Firmware Version = 9
+BasePort::ScanNodes: found 10 boards
+BasePort::SetDefaultProtocol: all nodes broadcast capable and support shorter wait
+BasePort::SetProtocol: system running in NON broadcast mode
+E- Class mtsRobotIO1394QtWidgetFactory: File: mtsRobotIO1394QtWidgetFactory.cpp Line: 87 -  BuildWidgets: no robot found
+W- Class mtsRobotIO1394QtWidgetFactory: BuildWidgets: no digital input found
+File: system_ROS.cpp Line: 418 -  should be in add_topics IO 

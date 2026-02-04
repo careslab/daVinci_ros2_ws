@@ -1,0 +1,11 @@
+digraph G {
+"HRSV" -> "MTMR"[label=" Broadcaster: default_authority\nAverage rate: 50.074\nBuffer length: 4.993\nMost recent transform: 1759785778.533894\nOldest transform: 1759785773.54131\n"];
+"ECM" -> "PSM2"[label=" Broadcaster: default_authority\nAverage rate: 50.063\nBuffer length: 4.994\nMost recent transform: 1759785778.540785\nOldest transform: 1759785773.547113\n"];
+"ECM_base" -> "ECM"[label=" Broadcaster: default_authority\nAverage rate: 50.08\nBuffer length: 4.992\nMost recent transform: 1759785778.542496\nOldest transform: 1759785773.550469\n"];
+"HRSV" -> "MTML"[label=" Broadcaster: default_authority\nAverage rate: 50.073\nBuffer length: 4.993\nMost recent transform: 1759785778.549172\nOldest transform: 1759785773.55651\n"];
+"ECM" -> "PSM1"[label=" Broadcaster: default_authority\nAverage rate: 50.06\nBuffer length: 4.974\nMost recent transform: 1759785778.532246\nOldest transform: 1759785773.55819\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1759785778.552176"[ shape=plaintext ] ;
+}->"HRSV";
+}

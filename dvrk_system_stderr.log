@@ -1,0 +1,28 @@
+---------------------------------------------------- 
+ Warning:                                            
+   It seems that "cisst" has not been compiled in  
+   Release mode.  Make sure your CMake configuration 
+   or catkin profile is configured to compile in     
+   Release mode for better performance and stability 
+---------------------------------------------------- 
+FirewirePort::Init: number of ports = 1
+  Port 0: /dev/fw0, 11 nodes
+FirewirePort::Init: successfully initialized port 0
+Using libraw1394 version 2.1.2
+FirewirePort::Init: successfully disabled cycle start packet
+FirewirePort::InitNodes: base node id = ffc0
+BasePort::ScanNodes: building node map for 10 nodes:
+BasePort::ScanNodes: unable to read from node 0
+BasePort::ScanNodes: unable to read from node 1
+BasePort::ScanNodes: unable to read from node 2
+BasePort::ScanNodes: unable to read from node 3
+BasePort::ScanNodes: unable to read from node 4
+BasePort::ScanNodes: unable to read from node 5
+BasePort::ScanNodes: unable to read from node 6
+BasePort::ScanNodes: unable to read from node 7
+BasePort::ScanNodes: unable to read from node 8
+BasePort::ScanNodes: unable to read from node 9
+BasePort::ScanNodes: found 0 boards
+BasePort::SetProtocol: system running in NON broadcast mode
+W- Configure: potentiometer to encoder latency (0.01) and/or distance (0) set to zero, safety check is DISABLED for Axis 3 for robot 1 (ECM)
+E- Class mtsRobotIO1394: File: mtsRobot1394.cpp Line: 692 -  SetBoards: ECM, hardware version doesn't match value from configuration file for board: 0, Id: 4.  Hardware found: Invalid.  Configuration file value: QLA1
